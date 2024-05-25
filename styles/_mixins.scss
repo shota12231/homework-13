@@ -1,0 +1,57 @@
+// aq gaiwereba cardebis stilebi
+@mixin cards ($height: 357px, $width: 362px,$display: inline-block,$margin-left: 20px,$border-radius: 5px,$background-color: white,) 
+        {
+        height:$height;
+        width: $width;
+        display: $display;
+        margin-left: $margin-left;
+        border-radius: $border-radius;
+        background-color: $background-color;
+    }
+@mixin cards () {
+    .firstphoto {
+        display: flex;
+        flex-wrap: wrap;
+        width: 362px;
+        margin-top: 40px;
+        background-color: #fff;
+    
+        .names {
+            padding: 35px;
+            position: absolute;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 23.44px;
+            text-align: left;
+            color: #FFFFFF;
+        }
+    
+        .info {
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 11.72px;
+            text-align: left;
+            color: #8A8787;
+            margin-top: 60px;
+            margin-left: 26px;
+        }
+    
+        .watch {
+            width: 16px;
+            height: 16px;
+            margin-left: -299px;
+            margin-top: 121px;
+        }
+    
+        .time {
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 11.72px;
+            text-align: left;
+            color: #8A8787;
+            margin-top: 124px;
+            margin-bottom: 59px;
+        }
+    }
+}
+
